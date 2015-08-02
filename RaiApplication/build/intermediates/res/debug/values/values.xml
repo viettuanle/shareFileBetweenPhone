@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="spinner_email">
+        <item>Work</item>
+        <item>Home</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="spinner_group">
+        <item>Director</item>
+        <item>Systems Engineer</item>
+        <item>Customer Service</item>
+        <item>MBA</item>      
+        <item>Dr</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="spinner_phone">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Paper</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="titlebackgroundcolor">#7d7b7d</color>
+    <!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">P2P sharing</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_slogan">Company Slogan</string>
+    <string name="company_website">Company Web site</string>
+    <string name="config">Configuration</string>
+    <string name="email">Email</string>
+    <string name="fileexplorer">Explorer</string>
+    <string name="first_name">First Name</string>
+    <string name="hello">Hello World, PeerActivity!</string>
+    <string name="ip_address">192.168.12.15</string>
+    <string name="joinpeer">Join Peer</string>
+    <string name="last_name">Last Name</string>
+    <string name="peerlist">Peer List Manager</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="sbc">Contact SBC</string>
+    <string name="select_phone_type">Select Phone</string>
+    <string name="send">Send</string>
+    <string name="server_address">75.124.224.83:port</string>
+    <!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AlertDialog" parent="@android:style/TextAppearance.Theme.Dialog">
+        <item name="android:layout_gravity">center|center_horizontal</item>
+        <item name="android:layout_width">160dp</item>
+    </style>
+    <style name="SmallWindowBackgournd" parent="@android:style/Theme">
+        <item name="android:background">@color/titlebackgroundcolor</item>
+    </style>
+    <style name="SpinnerAsButton" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@android:drawable/btn_default</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

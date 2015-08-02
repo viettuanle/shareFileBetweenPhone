@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Please select option for each field!"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Old Data" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="New Data" >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/txt_firstname_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="First name"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_firstname_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <!-- for firstname -->
+
+            <RadioButton
+                android:id="@+id/rdb_firstnameold_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdb_firstnamenew_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_middlename_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Middle name"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_middlename_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/rdb_middlenameold_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdb_middlenamenew_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_lasttname_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Last name"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_lastname_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/rdb_lastnameold_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdb_lastnamenew_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_gender_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Gender"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_gender_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/rdb_genderold_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdb_gendernew_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_phonenumber_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Phone number:"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_phone_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/rdb_phoneold_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdb_phonenew_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_email_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Email:"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_email_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <RadioButton android:id="@+id/rdb_emailold_UserChooseData" />
+
+            <RadioButton android:id="@+id/rdb_emailnew_UserChooseData" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_postal_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Postal:"
+            android:visibility="gone" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg_postal_UserChooseData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5px"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/rdb_postalold_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdb_postalnew_UserChooseData"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnCancel_Update_UserChooseData"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Keep old Data" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btnOK_Update_UserChooseData"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Update" >
+                </Button>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/layout/user_choose_data_dialog.xml -->

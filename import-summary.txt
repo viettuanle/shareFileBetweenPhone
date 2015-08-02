@@ -1,0 +1,305 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\tuanle\AndroidstudioProjects\NPURai_Update 25-1-2014
+                                                   -         
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\lib.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* NPURai_Update.iml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\npu\
+* app\src\main\java\npu\database\
+* app\src\main\java\npu\database\Constant.java
+* app\src\main\java\npu\database\DataListManager.java
+* app\src\main\java\npu\database\SQLiteAdapter.java
+* app\src\main\java\npu\database\SingleData.java
+* app\src\main\java\npu\network\
+* app\src\main\java\npu\network\SubnetUtils.java
+* app\src\main\java\npu\s2p\
+* app\src\main\java\npu\s2p\activity\
+* app\src\main\java\npu\s2p\activity\ClientThread.java
+* app\src\main\java\npu\s2p\activity\FileFolderExplorerActivity.java
+* app\src\main\java\npu\s2p\activity\InviteMultiUpdate.java
+* app\src\main\java\npu\s2p\activity\Manual_add_contact.java
+* app\src\main\java\npu\s2p\activity\Manual_edit_contact.java
+* app\src\main\java\npu\s2p\activity\MyInstanceMSg.java
+* app\src\main\java\npu\s2p\activity\My_config_peer.java
+* app\src\main\java\npu\s2p\activity\My_peer_list.java
+* app\src\main\java\npu\s2p\activity\PeerActivity.java
+* app\src\main\java\npu\s2p\activity\PeerListActivity.java
+* app\src\main\java\npu\s2p\activity\RequestMultiUpdate.java
+* app\src\main\java\npu\s2p\activity\Send.java
+* app\src\main\java\npu\s2p\activity\ServerFileService.java
+* app\src\main\java\npu\s2p\activity\SimplePeer.java
+* app\src\main\java\npu\s2p\activity\View_Business_contact.java
+* app\src\main\java\npu\s2p\activity\View_contact.java
+* app\src\main\java\npu\s2p\msg\
+* app\src\main\java\npu\s2p\msg\AckMessage.java
+* app\src\main\java\npu\s2p\msg\ChatData.java
+* app\src\main\java\npu\s2p\msg\ChatMessage.java
+* app\src\main\java\npu\s2p\msg\DataMessage.java
+* app\src\main\java\npu\s2p\msg\DiscoveryMessage.java
+* app\src\main\java\npu\s2p\msg\FileMessage.java
+* app\src\main\java\npu\s2p\msg\JoinMessage.java
+* app\src\main\java\npu\s2p\msg\PeerDiscovery.java
+* app\src\main\java\npu\s2p\msg\PeerListMessage.java
+* app\src\main\java\npu\s2p\msg\PingMessage.java
+* app\src\main\java\npu\s2p\msg\RequestBusinessCard.java
+* app\src\main\java\npu\s2p\msg\RequestDatabaseUpdate.java
+* app\src\main\java\npu\s2p\msg\RespondSingleRowDbUpdate.java
+* app\src\main\java\npu\s2p\msg\SingleDataMessage.java
+* app\src\main\java\npu\s2p\service\
+* app\src\main\java\npu\s2p\service\BroadcastService.java
+* app\src\main\java\npu\support\
+* app\src\main\java\npu\support\adapter\
+* app\src\main\java\npu\support\adapter\FolderInfo.java
+* app\src\main\java\npu\support\adapter\ListViewFolderAdapter.java
+* app\src\main\java\npu\support\adapter\ListviewChatAdapter.java
+* app\src\main\java\npu\support\adapter\listviewAdapter.java
+* app\src\main\java\npu\support\utility\
+* app\src\main\java\npu\support\utility\Convert.java
+* app\src\main\java\npu\support\utility\FileTools.java
+* app\src\main\java\npu\support\utility\FileUtility.java
+* app\src\main\java\npu\support\utility\Validate.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\icon.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\icon.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\icon.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\app_icon.png
+* app\src\main\res\drawable\boot.png
+* app\src\main\res\drawable\config.png
+* app\src\main\res\drawable\file.png
+* app\src\main\res\drawable\folder.png
+* app\src\main\res\drawable\foldercantsend.png
+* app\src\main\res\drawable\iconconfig.png
+* app\src\main\res\drawable\iconjoin.png
+* app\src\main\res\drawable\iconlist.png
+* app\src\main\res\drawable\iconsend.png
+* app\src\main\res\drawable\list.png
+* app\src\main\res\drawable\sbc.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\config_peer.xml
+* app\src\main\res\layout\cont_sbc.xml
+* app\src\main\res\layout\custom_dialog.xml
+* app\src\main\res\layout\explorer.xml
+* app\src\main\res\layout\join_peer.xml
+* app\src\main\res\layout\list_item.xml
+* app\src\main\res\layout\listview_request_invite.xml
+* app\src\main\res\layout\main.xml
+* app\src\main\res\layout\manual_add_contact.xml
+* app\src\main\res\layout\my_config_peer.xml
+* app\src\main\res\layout\my_peer_list.xml
+* app\src\main\res\layout\myinstancemsg.xml
+* app\src\main\res\layout\rename_custom_dialog.xml
+* app\src\main\res\layout\row.xml
+* app\src\main\res\layout\row_chat.xml
+* app\src\main\res\layout\row_folder_file.xml
+* app\src\main\res\layout\send.xml
+* app\src\main\res\layout\user_choose_data_dialog.xml
+* app\src\main\res\layout\view_business_contact.xml
+* app\src\main\res\layout\view_contact.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* follow.txt
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* lib\
+* lib\sip.jar
+* lib\sip2peer-1.0.jar
+* out\
+* out\production\
+* out\production\NPURai_Update\
+* out\production\NPURai_Update\NPURai_Update.apk
+* out\production\NPURai_Update\NPURai_Update.unaligned.apk
+* out\production\NPURai_Update\npu\
+* out\production\NPURai_Update\npu\database\
+* out\production\NPURai_Update\npu\database\Constant.class
+* out\production\NPURai_Update\npu\database\DataListManager.class
+* out\production\NPURai_Update\npu\database\SQLiteAdapter$SQLiteHelper.class
+* out\production\NPURai_Update\npu\database\SQLiteAdapter.class
+* out\production\NPURai_Update\npu\database\SingleData.class
+* out\production\NPURai_Update\npu\network\
+* out\production\NPURai_Update\npu\network\SubnetUtils$1.class
+* out\production\NPURai_Update\npu\network\SubnetUtils$SubnetInfo.class
+* out\production\NPURai_Update\npu\network\SubnetUtils.class
+* out\production\NPURai_Update\npu\s2p\
+* out\production\NPURai_Update\npu\s2p\activity\
+* out\production\NPURai_Update\npu\s2p\activity\BuildConfig.class
+* out\production\NPURai_Update\npu\s2p\activity\ClientThread.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$1.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$2.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$3.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$4.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$5.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$6.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity$7.class
+* out\production\NPURai_Update\npu\s2p\activity\FileFolderExplorerActivity.class
+* out\production\NPURai_Update\npu\s2p\activity\InviteMultiUpdate$1.class
+* out\production\NPURai_Update\npu\s2p\activity\InviteMultiUpdate$2.class
+* out\production\NPURai_Update\npu\s2p\activity\InviteMultiUpdate.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$1.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$2.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$3.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$4.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$5.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$6.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact$7.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_add_contact.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$1.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$2.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$3.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$4.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$5.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$6.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact$7.class
+* out\production\NPURai_Update\npu\s2p\activity\Manual_edit_contact.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$1$1.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$1$2.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$1$3.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$1.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$2$1.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$2.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$3.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$4.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$5.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg$6.class
+* out\production\NPURai_Update\npu\s2p\activity\MyInstanceMSg.class
+* out\production\NPURai_Update\npu\s2p\activity\My_config_peer$1.class
+* out\production\NPURai_Update\npu\s2p\activity\My_config_peer$2.class
+* out\production\NPURai_Update\npu\s2p\activity\My_config_peer.class
+* out\production\NPURai_Update\npu\s2p\activity\My_peer_list$1.class
+* out\production\NPURai_Update\npu\s2p\activity\My_peer_list.class
+* out\production\NPURai_Update\npu\s2p\activity\PeerActivity.class
+* out\production\NPURai_Update\npu\s2p\activity\PeerListActivity$1.class
+* out\production\NPURai_Update\npu\s2p\activity\PeerListActivity.class
+* out\production\NPURai_Update\npu\s2p\activity\R$array.class
+* out\production\NPURai_Update\npu\s2p\activity\R$attr.class
+* out\production\NPURai_Update\npu\s2p\activity\R$color.class
+* out\production\NPURai_Update\npu\s2p\activity\R$drawable.class
+* out\production\NPURai_Update\npu\s2p\activity\R$id.class
+* out\production\NPURai_Update\npu\s2p\activity\R$layout.class
+* out\production\NPURai_Update\npu\s2p\activity\R$string.class
+* out\production\NPURai_Update\npu\s2p\activity\R$style.class
+* out\production\NPURai_Update\npu\s2p\activity\R.class
+* out\production\NPURai_Update\npu\s2p\activity\RequestMultiUpdate$1.class
+* out\production\NPURai_Update\npu\s2p\activity\RequestMultiUpdate$2.class
+* out\production\NPURai_Update\npu\s2p\activity\RequestMultiUpdate.class
+* out\production\NPURai_Update\npu\s2p\activity\Send$1.class
+* out\production\NPURai_Update\npu\s2p\activity\Send$2.class
+* out\production\NPURai_Update\npu\s2p\activity\Send$3.class
+* out\production\NPURai_Update\npu\s2p\activity\Send$PingThread.class
+* out\production\NPURai_Update\npu\s2p\activity\Send$RequestBusinessThread.class
+* out\production\NPURai_Update\npu\s2p\activity\Send.class
+* out\production\NPURai_Update\npu\s2p\activity\ServerFileService$ServerThread.class
+* out\production\NPURai_Update\npu\s2p\activity\ServerFileService.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$1.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$2.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$3.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$4.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$5.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$6.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$7.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$8.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer$9.class
+* out\production\NPURai_Update\npu\s2p\activity\SimplePeer.class
+* out\production\NPURai_Update\npu\s2p\activity\View_Business_contact$1.class
+* out\production\NPURai_Update\npu\s2p\activity\View_Business_contact$2.class
+* out\production\NPURai_Update\npu\s2p\activity\View_Business_contact.class
+* out\production\NPURai_Update\npu\s2p\activity\View_contact$1.class
+* out\production\NPURai_Update\npu\s2p\activity\View_contact$2.class
+* out\production\NPURai_Update\npu\s2p\activity\View_contact.class
+* out\production\NPURai_Update\npu\s2p\msg\
+* out\production\NPURai_Update\npu\s2p\msg\AckMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\ChatData.class
+* out\production\NPURai_Update\npu\s2p\msg\ChatMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\DataMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\DiscoveryMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\FileMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\JoinMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\PeerDiscovery.class
+* out\production\NPURai_Update\npu\s2p\msg\PeerListMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\PingMessage.class
+* out\production\NPURai_Update\npu\s2p\msg\RequestBusinessCard.class
+* out\production\NPURai_Update\npu\s2p\msg\RequestDatabaseUpdate.class
+* out\production\NPURai_Update\npu\s2p\msg\RespondSingleRowDbUpdate.class
+* out\production\NPURai_Update\npu\s2p\msg\SingleDataMessage.class
+* out\production\NPURai_Update\npu\s2p\service\
+* out\production\NPURai_Update\npu\s2p\service\BroadcastService.class
+* out\production\NPURai_Update\npu\support\
+* out\production\NPURai_Update\npu\support\adapter\
+* out\production\NPURai_Update\npu\support\adapter\FolderInfo.class
+* out\production\NPURai_Update\npu\support\adapter\ListViewFolderAdapter.class
+* out\production\NPURai_Update\npu\support\adapter\ListviewChatAdapter.class
+* out\production\NPURai_Update\npu\support\adapter\listviewAdapter.class
+* out\production\NPURai_Update\npu\support\utility\
+* out\production\NPURai_Update\npu\support\utility\Convert.class
+* out\production\NPURai_Update\npu\support\utility\FileTools.class
+* out\production\NPURai_Update\npu\support\utility\FileUtility.class
+* out\production\NPURai_Update\npu\support\utility\Validate.class
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

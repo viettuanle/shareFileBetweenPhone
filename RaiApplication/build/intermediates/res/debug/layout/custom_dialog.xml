@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AlertDialog"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       
+        <EditText
+            android:id="@+id/edtCustomDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </EditText>
+    </LinearLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_horizontal"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnOK_CustomDialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ok" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnCancel_CustomDialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/layout/custom_dialog.xml -->

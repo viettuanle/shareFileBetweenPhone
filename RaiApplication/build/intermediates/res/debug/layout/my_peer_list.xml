@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:stretchColumns="1">
+  
+    <TableRow android:id="@+id/tableRow0"  android:layout_width="wrap_content"  android:layout_height="wrap_content">
+       <TextView android:text="My IP: " 
+         android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"></TextView>
+       <TextView android:text=" " 
+         android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMyIpTabList"></TextView>
+        
+    </TableRow>
+  
+    <TableRow android:id="@+id/tableRow1"  android:layout_width="wrap_content"  android:layout_height="wrap_content">
+        <TextView android:text="List of Peer: " 
+         android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"></TextView>
+        </TableRow>
+ 
+   <TableRow android:id="@+id/tableRow2"  android:layout_width="wrap_content"  android:layout_height="wrap_content">
+        <ListView  
+    android:id="@+id/livPeerList"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+  />
+    </TableRow>
+</TableLayout>
+<!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/layout/my_peer_list.xml -->

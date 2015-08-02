@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My IP: " >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtMyIPTabSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ping to: " >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtNeighborTagSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/ip_address"
+                android:textSize="15sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSendPingTagSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Send" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="Request update: " >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtRequestUpdateTabSend"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ip_address"
+                android:textSize="15sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnRequestTabSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Send" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="Invite Card: " >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtInviteUpdateTabSend"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ip_address"
+                android:textSize="15sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnInviteTabSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Send" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnPingBroadcast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ping Broadcast" />
+
+            <Button
+                android:id="@+id/btnPingServer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ping Server" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnRequestMulticast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Req Update Multicast" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnInviteMulticast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Inv Card Multicast" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnRequestBroadcast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Req Update Bcast" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnInviteBroadcast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Inv Card Bcast" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnCloseTabSend"
+                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Close" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

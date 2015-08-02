@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtRename_CustomDialog_FileFolderExplorer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:gravity="center"
+                android:text="" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtRename_CustomDialog_FileFolderExplorer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="" >
+            </EditText>
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_horizontal"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/btnOK_Rename_CustomDialog_FileFolderExplorer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Rename" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnCancel_Rename_CustomDialog_FileFolderExplorer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Cancel" >
+                    </Button>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

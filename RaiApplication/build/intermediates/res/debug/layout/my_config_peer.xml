@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1" >
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My IP: " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtMyIPTabconfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old Bootstrap: " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtCurrentBootstrapTabConfig"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:text=" " >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BootstrapIP: " >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtBootstapTabConfig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ip_address"
+            android:textSize="15sp" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server: " >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtServerTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/server_address"
+            android:text=""
+            android:textSize="15sp" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnDiscoveryTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discovery" >
+        </Button>
+
+        <CheckBox
+            android:id="@+id/reachCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:checked="true"
+            android:text="Peer reachability?" >
+        </CheckBox>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnJoinBootstrapTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Bootstrap" >
+        </Button>
+
+        <CheckBox
+            android:id="@+id/chbReceiveFileTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="allow receive file" >
+        </CheckBox>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnJoinServerTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Server" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnSaveTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnCloseTabConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close" >
+        </Button>
+    </TableRow>
+
+</TableLayout><!-- From: file:/C:/Users/tuanle/AndroidstudioProjects/NPURai_Update%2025-1-2014/app/src/main/res/layout/my_config_peer.xml -->

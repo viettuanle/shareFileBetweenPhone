@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PeerActivity!</string>
+    <string name="app_name">P2P sharing</string>
+<string name="config">Configuration</string>
+<string name="joinpeer">Join Peer</string>
+<string name="peerlist">Peer List Manager</string>
+<string name="sbc">Contact SBC</string>
+<string name="phone_number">Phone Number</string>
+<string name="last_name">Last Name</string>
+<string name="first_name">First Name</string>
+<string name="company_name">Company Name</string>
+<string name="company_website">Company Web site</string>
+<string name="company_slogan">Company Slogan</string>
+<string name="email">Email</string>
+<string name="postal_address">Postal Address</string>
+<string name="ip_address">192.168.12.15</string>
+<string name="server_address">75.124.224.83:port</string>
+<string name="send">Send</string>
+<string name="fileexplorer">Explorer</string>
+<string name="select_phone_type">Select Phone</string>
+
+ <string-array name="spinner_group">
+        <item>Director</item>
+        <item>Systems Engineer</item>
+        <item>Customer Service</item>
+        <item>MBA</item>      
+        <item>Dr</item>
+        <item>Custom</item>
+    </string-array>
+  <string-array name="spinner_phone">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Paper</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="spinner_email">
+        <item>Work</item>
+        <item>Home</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

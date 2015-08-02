@@ -1,0 +1,24 @@
+manual_add_contact.xml
+Add two edit_text: company_name, company_website
+
+send.java
+ //fill all rows of database into datalist with conditions that the list contains only my info on business card  
+	 public  void mybusinesscardlist()
+	 
+// edit file Manual_edit_contat
+//edit file Manual_add_contact  --> add new fields: company name, website, group --> title.	 
+SimplePeer.java
+// edit  		if (jsonMsg.get("type").equals(
+					SingleDataMessage.MSG_PEER_SINGLEDATA)) {
+					
+					
+					==> add    newsingledata.setNotes("no"); //to let machine knowns that the info is not itself (not your business card)
+					
+View_Business_contact  --> show detail of each business card, has two buttons for importing data or canceling.
+----npurai_update---- 1-25-2014
+ping broadcast - 30s
+how to do:
+ + add class BroadcastService to handle ping broadcast
+ + edit AndroidManifest.xml , declare service
+ + edit Send.java, add variable broadcastaddress for get Broadcast IP from GetBroadcast() method.
+ + edit PeerActivity.java, create method callservicebroadcast(), and call this method inside onCreate() method.

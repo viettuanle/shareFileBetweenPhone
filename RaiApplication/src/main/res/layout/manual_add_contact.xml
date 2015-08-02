@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/widget_button"
+        style="@style/SmallWindowBackgournd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/btnAddContactDone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Done" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnAddContactRevert"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Revert" >
+        </Button>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/widget_button"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/imgbtnAddContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon" />
+            </TableRow>
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edtAddContactFirstName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/first_name"
+                        android:inputType="textCapWords|textPersonName" >
+
+                        <requestFocus>     </requestFocus>
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/edtAddContactMiddleName"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Middle Name"
+                    android:inputType="textCapWords|textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edtAddContactLastName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/last_name"
+                    android:inputType="textCapWords|textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium" >
+                </EditText>
+            </TableRow>
+
+            
+            
+            
+            <TableLayout
+                android:id="@+id/tableLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+					<Spinner
+                        android:id="@+id/spnAddContactGroup"
+                        style="@style/SpinnerAsButton" />
+					
+                    <RadioGroup
+                        android:id="@+id/rdgAddContactMaleFemale"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+						
+                        <RadioButton
+                            android:id="@+id/radiobuttonmale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Male " />
+
+                        <RadioButton
+                            android:id="@+id/radiobuttionfemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="   Female" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            
+            
+                <TableLayout
+                android:id="@+id/tableLayout22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edtAddContactCompanyName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/company_name"
+                        android:inputType="textCapWords|textPersonName" >
+
+                       
+                    </EditText>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow32"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edtAddContactCompanyWebsite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/company_website"
+                        android:inputType="textCapWords|textPersonName" >
+
+                       
+                    </EditText>
+                </TableRow>
+                
+ <TableRow
+                    android:id="@+id/tableRow33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edtAddContactCompanySlogan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/company_slogan"
+                        android:inputType="textCapWords|textPersonName" >
+
+                       
+                    </EditText>
+                </TableRow>
+                
+            </TableLayout>
+            
+            
+            
+            
+            
+            <TableLayout
+                android:id="@+id/tableLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/phone_number" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Spinner
+                        android:id="@+id/spnAddContactPhoneNumber"
+                        style="@style/SpinnerAsButton"
+                        android:prompt="@string/select_phone_type"
+                        android:fadingEdge="none" />
+
+                    <EditText
+                        android:id="@+id/edtAddContactPhoneNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/phone_number"
+                        android:inputType="phone"
+                        android:phoneNumber="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium" >
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Spinner
+                        android:id="@+id/spnAddContactEmailAddress"
+                        style="@style/SpinnerAsButton" />
+
+                    <EditText
+                        android:id="@+id/edtAddContactEmailAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:textAppearance="?android:attr/textAppearanceMedium" >
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/postal_address" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edtAddContactPostalAddress"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/postal_address"
+                        android:inputType="textCapWords|textPostalAddress" >
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+            
+            
+             <TableLayout
+                android:id="@+id/tableLayout20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/chbAddContactYourCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        
+                        android:text="This is not my business card ?" >
+
+                       
+                    </CheckBox>
+                </TableRow>
+               
+                
+            </TableLayout>
+            
+            
+            
+            
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

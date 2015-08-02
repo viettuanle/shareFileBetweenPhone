@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SpinnerAsButton" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@android:drawable/btn_default</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SmallWindowBackgournd" parent="@android:style/Theme">
+        <item name="android:background">@color/titlebackgroundcolor</item>
+    </style>
+
+    <style name="AlertDialog" parent="@android:style/TextAppearance.Theme.Dialog">
+        <item name="android:layout_gravity">center|center_horizontal</item>
+        <item name="android:layout_width">160dp</item>
+    </style>
+
+    <color name="titlebackgroundcolor">#7d7b7d</color>
+
+</resources>
